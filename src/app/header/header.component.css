@@ -1,0 +1,30 @@
+nav{
+position: fixed;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 10%;
+background-color: rgb(26, 23, 23);
+}
+.logo img {
+  max-width: 120px;
+  max-height: auto;
+}
+.navmenu{
+display: flex;
+}
+.navmenu a{
+  color:rgb(206, 206, 206) ;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-weight: 400;
+transition: all .42s ease;
+}
+.navmenu a:hover{
+  color: rgb(255, 230, 0);
+}
