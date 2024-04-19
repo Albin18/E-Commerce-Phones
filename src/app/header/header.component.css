@@ -28,3 +28,24 @@ transition: all .42s ease;
 .navmenu a:hover{
   color: rgb(255, 230, 0);
 }
+.nav-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-icon i{
+  margin-right: 20px;
+  color: rgb(206, 206, 206);
+  font-size: 30px;
+  font-weight: 400;
+  transition: all .42s ease;
+}
+.nav-icon i:hover{
+  transform: scale(1.1);
+  color: rgb(255, 230, 0);
+
+}
+#menu-icon {
+  font-size: 35px;
+  color: rgb(206,206, 206);
+  cursor: pointer;
+}
