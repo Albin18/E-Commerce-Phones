@@ -1,51 +1,38 @@
-nav{
-position: fixed;
+.navbar{
+position: relative;
 width: 100%;
 top: 0;
 right: 0;
 z-index: 1000;
-display: flex;
-align-items: center;
-justify-content: space-between;
 padding: 20px 10%;
-background-color: rgb(26, 23, 23);
 }
-.logo img {
-  max-width: 120px;
-  max-height: auto;
+.logo img{
+  padding: 0;
+  max-width: 130PX;
+  max-height: 100%;
 }
-.navmenu{
-display: flex;
-}
-.navmenu a{
-  color:rgb(206, 206, 206) ;
+
+.container-fluid a{
+  color:white ;
+  align-items: center;
   font-size: 20px;
   text-transform: capitalize;
   padding: 10px 20px;
   font-weight: 400;
-transition: all .42s ease;
+  transition: all .42s ease;
 }
 .navmenu a:hover{
   color: rgb(255, 230, 0);
 }
-.nav-icon {
-  display: flex;
-  align-items: center;
-}
-.nav-icon i{
-  margin-right: 20px;
-  color: rgb(206, 206, 206);
-  font-size: 30px;
-  font-weight: 400;
-  transition: all .42s ease;
-}
+
 .nav-icon i:hover{
   transform: scale(1.1);
   color: rgb(255, 230, 0);
-
 }
-#menu-icon {
-  font-size: 35px;
-  color: rgb(206,206, 206);
-  cursor: pointer;
+.collapse{
+ justify-content: center;
+}
+.collapse a:hover{
+  transform: scale(1.1);
+color: rgb(255, 230, 0);
 }
